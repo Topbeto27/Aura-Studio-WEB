@@ -4,10 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import './globals.css';
 
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-});
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'AuraStudio - Fotografía y Video Profesional',
@@ -21,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${inter.variable} text-neutral-50 font-sans antialiased bg-gradient-to-b from-purple-500 to-pink-500`}>
+      <body className={`${inter.className} text-neutral-50 font-sans antialiased bg-gradient-to-b from-purple-500 to-pink-500`}>
         {/* Header */}
         <header className="fixed top-0 left-0 right-0 z-50 bg-neutral-900/80 backdrop-blur-sm">
           <div className="container mx-auto px-6 py-4 flex justify-between items-center">

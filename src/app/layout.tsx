@@ -42,9 +42,6 @@ export default function RootLayout({
               <Link href="/contacto" className="hover:text-neutral-300 transition-colors">
                 Contacto
               </Link>
-              <Link href="/login" className="bg-indigo-600 text-white font-bold py-2 px-4 rounded-md hover:bg-indigo-700 transition-colors">
-                Login
-              </Link>
             </nav>
             <button className="md:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

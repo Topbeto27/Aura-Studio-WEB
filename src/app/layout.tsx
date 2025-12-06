@@ -23,7 +23,7 @@ export default function RootLayout({
         <header className="fixed top-0 left-0 right-0 z-50 bg-neutral-900/80 backdrop-blur-sm">
           <div className="container mx-auto px-6 py-4 flex justify-between items-center">
             <Link href="/" className="flex items-center space-x-3 text-2xl font-semibold tracking-wider">
-              <Image src="/fotos_portafolio/logos/logo.png" alt="Aura Studio Logo" width={40} height={40} className="h-10 w-10" />
+              <Image src="/fotos_portafolio/logos/logo.webp" alt="Aura Studio Logo" width={40} height={40} className="h-10 w-10" />
               <span>AuraStudio</span>
             </Link>
             <nav className="hidden md:flex items-center space-x-8">

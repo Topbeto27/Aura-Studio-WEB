@@ -8,7 +8,7 @@ export async function getImagePaths(folderName: string): Promise<string[]> {
 
   try {
     const fileNames = await fs.readdir(targetDir);
-    const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
+    const imageExtensions = ['.webp'];
 
     const imagePaths = fileNames
       .filter((name) => imageExtensions.includes(path.extname(name).toLowerCase()))

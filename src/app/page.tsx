@@ -49,7 +49,7 @@ export default function HomePage() {
       <section className="flex flex-col items-center justify-center min-h-screen text-center px-4">
         <div className="flex flex-col items-center gap-6">
           <div>
-            <Image src="/fotos_portafolio/logos/logo-alt.png" alt="Aura Studio Alternate Logo" width={200} height={200} className="w-40 h-40 md:w-48 md:h-48" />
+            <Image src="/fotos_portafolio/logos/logo-alt.webp" alt="Aura Studio Alternate Logo" width={200} height={200} className="w-40 h-40 md:w-48 md:h-48" />
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
             Capturamos la Esencia de tu Marca

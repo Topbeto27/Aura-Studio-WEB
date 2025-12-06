@@ -28,7 +28,7 @@ const AcercaDePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="flex flex-col items-center text-center">
               <div className="relative w-48 h-48 mb-4 rounded-full overflow-hidden border-4 border-purple-500">
-                <Image src="/fotos_portafolio/alberto.jpg" alt="Alberto Ayala Guerrero" layout="fill" objectFit="cover" />
+                <Image src="/fotos_portafolio/alberto.webp" alt="Alberto Ayala Guerrero" layout="fill" objectFit="cover" />
               </div>
               <h3 className="text-2xl font-semibold text-white">Alberto Ayala Guerrero</h3>
               <p className="text-md text-gray-400">
@@ -37,7 +37,7 @@ const AcercaDePage = () => {
             </div>
             <div className="flex flex-col items-center text-center">
               <div className="relative w-48 h-48 mb-4 rounded-full overflow-hidden border-4 border-pink-500">
-                <Image src="/fotos_portafolio/jonathan.jpg" alt="Jonathan Méndez" layout="fill" objectFit="cover" />
+                <Image src="/fotos_portafolio/jonathan.webp" alt="Jonathan Méndez" layout="fill" objectFit="cover" />
               </div>
               <h3 className="text-2xl font-semibold text-white">Jonathan Méndez</h3>
               <p className="text-md text-gray-400">
